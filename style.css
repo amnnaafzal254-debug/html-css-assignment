@@ -1,0 +1,111 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e8eef7, #f8f9fc);
+    color: #333333;
+    margin: 0;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+/* Profile Card */
+.container {
+    background-color: #ffffff;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #e1e7ef;
+    box-shadow: 0 10px 35px rgba(31, 55, 85, 0.12);
+}
+
+/* Main Heading */
+h1 {
+    color: #19365c;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #5b8def;
+}
+
+/* Section Headings */
+h2 {
+    color: #254d78;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+    color: #555f6d;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Skills List */
+ul {
+    background-color: #f4f7fc;
+    padding: 20px 20px 20px 40px;
+    border-radius: 10px;
+}
+
+li {
+    color: #3d4d60;
+    padding: 7px 0;
+    font-size: 16px;
+}
+
+/* Contact Link */
+a {
+    display: inline-block;
+    background-color: #254d78;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    margin-top: 8px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #416fa8;
+    transform: translateY(-2px);
+}
+
+/* Section Spacing */
+.container h2:first-of-type {
+    margin-top: 10px;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 15px 10px;
+    }
+
+    .container {
+        padding: 22px;
+        margin: 10px auto;
+        border-radius: 12px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p, li {
+        font-size: 15px;
+    }
+}
+
